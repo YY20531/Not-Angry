@@ -7,7 +7,24 @@ oj的题目又臭又长说是，
 
 类的继承， 设计
 
+<details> 
 
+<summary> 运算符重载</summary>
+
+| 运算符  | 格式                                                  |
+| ---- | --------------------------------------------------- |
+| `<<` | `friend ostream& operator<<(ostream&, const Type&)` |
+| `>>` | `friend istream& operator>>(istream&, Type&)`       |
+
+| 运算符   | 格式                     | 返回值     |
+| ----- | ---------------------- | ------- |
+| `++a` | `Type& operator++()`   | `Type&` |
+| `a++` | `Type operator++(int)` | `Type`  |
+| `--a` | `Type& operator--()`   | `Type&` |
+| `a--` | `Type operator--(int)` | `Type`  |
+
+
+</details>
 
 2. TAPA
 
